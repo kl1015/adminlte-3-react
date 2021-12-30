@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {useTranslation} from 'react-i18next';
-import {ContentHeader, Button} from '@components';
+import {ContentHeader} from '@components';
 import ActivityTab from './ActivityTab';
 import TimelineTab from './TimelineTab';
 import SettingsTab from './SettingsTab';
@@ -30,11 +30,11 @@ const Profile = () => {
                                         />
                                     </div>
                                     <h3 className="profile-username text-center">
-                                        Nina Mcintire
+                                        Alex Chan
                                     </h3>
-                                    <p className="text-muted text-center">
+                                    {/* <p className="text-muted text-center">
                                         Software Engineer
-                                    </p>
+                                    </p> */}
                                     <ul className="list-group list-group-unbordered mb-3">
                                         <li className="list-group-item">
                                             <b>{t('header.user.followers')}</b>
@@ -52,13 +52,13 @@ const Profile = () => {
                                         <li className="list-group-item">
                                             <b>{t('header.user.friends')}</b>
                                             <span className="float-right">
-                                                13,287
+                                                Christina Wong
                                             </span>
                                         </li>
                                     </ul>
-                                    <Button block>
+                                    {/* <Button block>
                                         {t('main.label.follow')}
-                                    </Button>
+                                    </Button> */}
                                 </div>
                                 {/* /.card-body */}
                             </div>
@@ -74,37 +74,23 @@ const Profile = () => {
                                         {t('main.label.education')}
                                     </strong>
                                     <p className="text-muted">
-                                        B.S. in Computer Science from the
-                                        University of Tennessee at Knoxville
+                                        Secondary School F.3
                                     </p>
                                     <hr />
                                     <strong>
                                         <i className="fas fa-map-marker-alt mr-1" />
                                         {t('main.label.location')}
                                     </strong>
-                                    <p className="text-muted">
-                                        Malibu, California
-                                    </p>
+                                    <p className="text-muted">Kwun Tong</p>
                                     <hr />
                                     <strong>
                                         <i className="fas fa-pencil-alt mr-1" />
                                         {t('main.label.skills')}
                                     </strong>
                                     <p className="text-muted">
-                                        <span className="tag tag-danger">
-                                            UI Design
-                                        </span>
+                                        {/* <span className="tag tag-danger"></span> */}
                                         <span className="tag tag-success">
-                                            Coding
-                                        </span>
-                                        <span className="tag tag-info">
-                                            Javascript
-                                        </span>
-                                        <span className="tag tag-warning">
-                                            PHP
-                                        </span>
-                                        <span className="tag tag-primary">
-                                            Node.js
+                                            Can read both Chinese and English
                                         </span>
                                     </p>
                                     <hr />
@@ -113,9 +99,8 @@ const Profile = () => {
                                         {t('main.label.notes')}
                                     </strong>
                                     <p className="text-muted">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Etiam fermentum enim
-                                        neque.
+                                        He cannot speak but is able to type by
+                                        keyborad in complete sentences.
                                     </p>
                                 </div>
                             </div>

@@ -68,18 +68,19 @@
         },
         "user": {
             "profile": "Profile",
-            "followers": "Followers",
-            "sales": "Sales",
-            "friends": "Friends"
+            "followers": "Words",
+            "sales": "Sentences",
+            "friends": "Followed by"
         }
     },
     "menusidebar": {
         "label": {
             "dashboard": "Dashboard",
             "profile": "Profile",
-            "blank": "Blank",
-            "mainMenu": "Main Menu",
-            "subMenu": "Sub Menu"
+            "pProfile": "Patient Profile",
+            "mainMenu": "Most Frequently Used",
+            "words": "Words",
+            "sentences": "Sentence"
         }
     },
     "footer": {
@@ -89,7 +90,7 @@
     "views": {
         "user": {
             "profile": "User Profile",
-            "following": "Following"
+            "following": "Sentences"
         }
     },
     "measurement": {

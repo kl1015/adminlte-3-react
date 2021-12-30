@@ -22,11 +22,8 @@ const Post = ({isClearfix}) => {
             </div>
             {/* /.user-block */}
             <p>
-                Lorem ipsum represents a long-held tradition for designers,
-                typographers and the like. Some people hate it and argue for its
-                demise, but others ignore the hate as they create awesome tools
-                to help create filler text for everyone from bacon lovers to
-                Charlie Sheen fans.
+                The patient has shown improvement in expressing sentence with
+                more then 10 words.
             </p>
             <p>
                 <Link to="/" className="link-black text-sm mr-2">

@@ -1,0 +1,8 @@
+.words {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px dotted gray;
+    line-height: 24px;
+}

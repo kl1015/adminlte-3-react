@@ -8,7 +8,7 @@ const TimelineTab = ({isActive}) => {
             <div className="timeline timeline-inverse">
                 {/* timeline time label */}
                 <div className="time-label">
-                    <span className="bg-danger">10 Feb. 2014</span>
+                    <span className="bg-danger">21 Dec. 2021</span>
                 </div>
                 {/* /.timeline-label */}
                 {/* timeline item */}
@@ -20,15 +20,11 @@ const TimelineTab = ({isActive}) => {
                             <span> 12:05</span>
                         </span>
                         <h3 className="timeline-header">
-                            <Link to="/">Support Team</Link>
-                            <span> sent you an email</span>
+                            <Link to="/">System Analysis</Link>
+                            {/* <span> sent you an email</span> */}
                         </h3>
                         <div className="timeline-body">
-                            Etsy doostang zoodles disqus groupon greplin oooj
-                            voxy zoodles, weebly ning heekya handango imeem
-                            plugg dopplr jibjab, movity jajah plickers sifteo
-                            edmodo ifttt zimbra. Babblely odeo kaboodle quora
-                            plaxo ideeli hulu weebly balihoo...
+                            Patient performs weak in grammar for long sentences.
                         </div>
                         <div className="timeline-footer">
                             <Link to="/" className="btn btn-primary btn-sm">
@@ -42,7 +38,7 @@ const TimelineTab = ({isActive}) => {
                 </div>
                 {/* END timeline item */}
                 {/* timeline item */}
-                <div>
+                {/* <div>
                     <i className="fas fa-user bg-info" />
                     <div className="timeline-item">
                         <span className="time">
@@ -54,7 +50,7 @@ const TimelineTab = ({isActive}) => {
                             <span> accepted your friend request</span>
                         </h3>
                     </div>
-                </div>
+                </div> */}
                 {/* END timeline item */}
                 {/* timeline item */}
                 <div>
@@ -65,13 +61,12 @@ const TimelineTab = ({isActive}) => {
                             <span> 27 mins ago</span>
                         </span>
                         <h3 className="timeline-header">
-                            <Link to="/">Jay White</Link>
-                            <span> commented on your post</span>
+                            <Link to="/">Weekly Suggestion</Link>
+                            {/* <span> commented on your post</span> */}
                         </h3>
                         <div className="timeline-body">
-                            Take me to your leader! Switzerland is small and
-                            neutral! We are more like Germany, ambitious and
-                            misunderstood!
+                            Please pay attention to the grammar of the
+                            sentences.
                         </div>
                         <div className="timeline-footer">
                             <Link
@@ -86,7 +81,7 @@ const TimelineTab = ({isActive}) => {
                 {/* END timeline item */}
                 {/* timeline time label */}
                 <div className="time-label">
-                    <span className="bg-success">3 Jan. 2014</span>
+                    <span className="bg-success">21 Dec. 2021</span>
                 </div>
                 {/* /.timeline-label */}
                 {/* timeline item */}

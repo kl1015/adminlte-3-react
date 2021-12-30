@@ -9,19 +9,19 @@ export const MENU = [
         path: '/'
     },
     {
-        name: 'menusidebar.label.blank',
-        path: '/blank'
+        name: 'menusidebar.label.pProfile',
+        path: '/profile'
     },
     {
         name: 'menusidebar.label.mainMenu',
         children: [
             {
-                name: 'menusidebar.label.subMenu',
+                name: 'menusidebar.label.words',
                 path: '/sub-menu-1'
             },
 
             {
-                name: 'menusidebar.label.blank',
+                name: 'menusidebar.label.sentences',
                 path: '/sub-menu-2'
             }
         ]
@@ -40,7 +40,9 @@ const MenuSidebar = () => {
                     className="brand-image img-circle elevation-3"
                     style={{opacity: '.8'}}
                 />
-                <span className="brand-text font-weight-light">AdminLTE 3</span>
+                <span className="brand-text font-weight-light">
+                    PENFLOWER Admin
+                </span>
             </Link>
             <div className="sidebar">
                 <div className="user-panel mt-3 pb-3 mb-3 d-flex">
@@ -51,10 +53,10 @@ const MenuSidebar = () => {
                             alt="User"
                         />
                     </div>
-                    <div className="info">
-                        <Link to="/profile" className="d-block">
-                            {user.email}
-                        </Link>
+                    <div className="info ">
+                        {/* <Link to="/profile" className="d-block"> */}
+                        <div className="d-block">{user.email}</div>
+                        {/* </Link> */}
                     </div>
                 </div>
                 <nav className="mt-2" style={{overflowY: 'hidden'}}>
